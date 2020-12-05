@@ -1,16 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title><%= htmlWebpackPlugin.options.title %></title>
+    <title>TuchatWeb</title>
+     <!-- Compiled and minified CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+     <!-- Compiled and minified JavaScript -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   </head>
   <body>
     <noscript>
-      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+      <strong><h1>Le site néscécite d'avoir le Javascript actif. Sans cela le cite ne pourra fonctionner correctement. Merci d'activer Javascript pour pouvoir continuer.</h1></strong>
     </noscript>
+    <nav class="deep-orange darken-1">
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo" style="margin-left: 10mm;"><img src="http://localhost:1234/assets/1" alt="Logo Of Tuchat™" height="50" width="50" style="margin-top: 2.5mm;"> Tuchat</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <!-- <li><a href="sass.html">Sass</a></li> -->
+          <!-- <li><a href="badges.html">Components</a></li> -->
+          <li><a class="waves-effect waves-light btn">Connexion</a></li>
+        </ul>
+      </div>
+    </nav>
     <div id="app"></div>
     <!-- built files will be auto injected -->
   </body>
