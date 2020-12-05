@@ -11,7 +11,8 @@
   - npm >= 5
 
  ## Installation :
-  Voici la liste des commandes à éxécuter :
+  Voici la liste des commandes à éxécuter
+    
     ```sh
     # Cloner le repo github
     git clone https://github.com/LapsTimeOFF/tuchat/
@@ -21,5 +22,4 @@
     cd tuchat
     
     # Installer
-    npm install
-    ```
+    npm install```
