@@ -1,0 +1,24 @@
+{
+  "name": "tuchat",
+  "version": "0.0.0-dev",
+  "description": "Tuchat le réseau sociale !",
+  "main": "server/index.js",
+  "scripts": {
+    "test": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LapsTimeOFF/tuchat.git"
+  },
+  "keywords": [
+    "js",
+    "node",
+    "vue"
+  ],
+  "author": "LapsTime, LuckyX21",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LapsTimeOFF/tuchat/issues"
+  },
+  "homepage": "https://github.com/LapsTimeOFF/tuchat#readme"
+}
