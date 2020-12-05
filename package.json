@@ -20,5 +20,10 @@
   "bugs": {
     "url": "https://github.com/LapsTimeOFF/tuchat/issues"
   },
-  "homepage": "https://github.com/LapsTimeOFF/tuchat#readme"
+  "homepage": "https://github.com/LapsTimeOFF/tuchat#readme",
+  "devDependencies": {
+    "eslint": "^7.15.0",
+    "eslint-plugin-vue": "^7.2.0",
+    "nodemon": "^2.0.6"
+  }
 }
